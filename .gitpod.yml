@@ -25,5 +25,5 @@ github:
     addLabel: false
 
 tasks:
-  - init: cd .. && git clone https://gerrit.libreoffice.org/core
+  - init: cd .. && git clone https://gerrit.libreoffice.org/core && cp librepod/autogen.input core/autogen.input
     prebuild: cd core && ./autogen.sh && make
