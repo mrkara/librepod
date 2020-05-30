@@ -25,4 +25,4 @@ github:
     addLabel: false
 
 tasks:
-  - init: cd .. && git clone https://gerrit.libreoffice.org/core # runs during prebuild
+  - init: cd .. && git clone https://gerrit.libreoffice.org/core
