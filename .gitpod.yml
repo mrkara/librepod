@@ -26,3 +26,4 @@ github:
 
 tasks:
   - init: cd .. && git clone https://gerrit.libreoffice.org/core
+    prebuild: cd core && ./autogen.sh && make
