@@ -1,0 +1,3 @@
+--with-parallelism=4
+--without-java
+--without-help
